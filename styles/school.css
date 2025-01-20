@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------shared-style---- */
+.primary-color{
+    background-color: #FEA301;
+    color: white;
+}
+
+.display-flex{
+    display: flex;
+ 
+}
+
+
+/* --------navstyles------ */
+
+/* .navbar{
+    max-width: 1158.61px;
+
+} */
+
+/* ------btn-clr------- */
+.home-clr{
+    color: #FEA301;
+    font-weight: bold;
+}
+.about-clr{
+    color: #01ACFD;
+    font-weight: 500;
+}
+.facilities-clr{
+    color: #05D4DF;
+    font-weight: 500;
+}
+.admission-clr{
+    color: #5D58EF;
+    font-weight: 500;
+}
+
+
+
+.logo{
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-top: 20px;
+    max-width: 1158.61;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlink li a{
+    font-size: 1.30rem;
+    list-style: none;
+    text-decoration: none;
+   
+}
+
+
+.navlink{
+    gap: 32px;
+}
+.navlink li {
+    list-style: none;
+    
+}
+.primary-btn{
+    padding: 10px 60px;
+    border-radius: 12px;
+    border: none;
+    width: 197px;
+    height: 50px;
+    font-size: 1.30rem;
+    font-weight: 500;
+    
+}
+.banner{
+    max-width: 1158.61;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.banner-title{
+    font-size:3.5rem;
+}
+.ornge-clr{
+    color: #FEA301;
+}
+.sky-clr{
+    color: #01ACFD;
+}
+.banner-description{
+    font-size: 1.3rem;
+    color: #111111;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.secondary-btn{
+    /* font-size: 1.3rem; */
+    padding: 10px 47px;
+    border-radius: 12px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 1.20rem;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    
+}
+@media screen and (max-width:576px) {
+
+    .banner{
+        flex-direction : column;
+    }
+}
