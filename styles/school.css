@@ -52,6 +52,8 @@
 
 
 .logo{
+   
+    display: flex;
     align-items: center;
     font-size: 2rem;
     font-weight: bold;
@@ -125,9 +127,49 @@
     color: white;
     
 }
-@media screen and (max-width:576px) {
+.icon{
+    display: none;
+}
 
+@media screen and (max-width:576px) {
+ 
     .banner{
-        flex-direction : column;
+        flex-direction: column-reverse;
     }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-description{
+        font-size: 1rem;
+    }
+    .banner-content{
+        width: 500px;
+        margin: 0 auto;
+       text-align: center;
+    }
+    .secondary-btn{
+       text-align: center;
+       font-size: 1rem;
+    }
+    .school{
+        background-color: transparent;
+    }
+    .display-none{
+        display: none;
+    }
+    
+    .banner-img{
+        margin-top: 40px;
+    }
+    .logo{
+        padding: 0 16px;
+        justify-content: space-between;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #FEA301;
+        width: 100%;
+    }
+    .icon{
+        display: block;
+    }
+    
 }
