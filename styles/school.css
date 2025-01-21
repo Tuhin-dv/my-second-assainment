@@ -130,6 +130,70 @@
 .icon{
     display: none;
 }
+.container{
+    /* max-width: 1158.61;
+    margin: 0 auto; */
+}
+
+.section{
+    background-image: url("/assets/bg.png");
+    width: 100%;
+    height: 100vh;
+}
+.section-title{
+   text-align: center;
+   margin-top: 60px;
+   font-size: 3rem;
+   font-weight: bold;
+}
+.container{
+    max-width: 1158.61;
+    margin: 0 auto;
+    display: flex;
+    gap: 28px;
+}
+.content{
+    margin-top: 80px;
+    border-radius: 18.86px;
+    text-align: center;
+    padding: 52px 40px;
+    border: 1px solid black;
+    /* width: 367.8px;
+    height: 476.78px; */
+}
+.content.one{
+    background-image: linear-gradient(#DEF5FF,#ffffff);
+    border: 1px solid #DEF5FF;
+}
+.content.two{
+    background-image: linear-gradient(#FFF4DC,#ffffff);
+    border: 1px solid #FFF4DC;
+}
+.content.three{
+    background-image: linear-gradient(#EEE1FF,#ffffff);
+    border: 1px solid #EEE1FF;
+}
+.content-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.content-description{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 28px;
+}
+.content-btn{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+}
+
+
+
 
 @media screen and (max-width:576px) {
  
