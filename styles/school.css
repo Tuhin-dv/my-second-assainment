@@ -256,8 +256,43 @@
     padding:30px 60px;
 }
 
+.view-btn{
+    margin-top: 90px;
+    text-align: center;
+}
 
 
+/* 
+--------footerstyle------
+-------------------
+--------------- */
+.footer{
+    background-color: #01ACFD;
+    height: 519px;
+
+}
+.footer-container{
+    max-width: 1158.61;
+    margin: 0 auto;
+    padding-top: 122px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.footer-logo{
+    
+    display: flex;
+    align-items: center;
+}
+.about-content > p{
+   
+    
+}
+
+.about{
+    margin-bottom: 32px;
+}
 
 
 @media screen and (max-width:576px) {
@@ -286,7 +321,6 @@
     
     .banner-img{
         padding: 0 15px;
-        max-
         margin-top: 40px;
     }
     .logo{
