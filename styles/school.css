@@ -96,15 +96,13 @@ body{
 }
 .banner{
     max-width: 1158.61;
-    margin: 0 auto;
+    margin: 60px auto 0 auto;
     display: flex;
     align-items: center;
     gap: 50px;
 }
 
-.banner-img img{
-    width: 100%;
-}
+
 .banner-title{
     font-size:3.5rem;
 }
@@ -152,6 +150,7 @@ body{
 .section-title{
    text-align: center;
    margin-top: 60px;
+   margin-bottom: 50px;
    font-size: 3rem;
    font-weight: bold;
 }
@@ -239,7 +238,7 @@ body{
 .section2{
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/assets/bg.png"),linear-gradient(white,#fea10131);
+    background-image: url("/assets/bg.png"),linear-gradient(white,#fea1012f);
     padding-bottom:80px;
 }
 .section2-title{
@@ -402,8 +401,11 @@ body{
 
 
 @media screen and (max-width:576px) {
- 
+    .banner-img img{
+        width: 100%;
+    }
     .banner{
+        margin: 20px auto 0 auto;
         flex-direction: column-reverse;
     }
     .banner-title{
